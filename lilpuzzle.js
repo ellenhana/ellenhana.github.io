@@ -20,7 +20,7 @@ function NumFinding(){
     else if(intAns>truNum){
       alert("Your answer is greater than the True Number! Try again!");}
     else{
-      alert("The True Number is greater than your answer! Try again!");}
+      alert("Your answer is smaller than the True Number! Try again!");}
     }
   while(intAns!=truNum)
 
