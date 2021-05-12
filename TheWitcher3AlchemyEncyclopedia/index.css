@@ -1,0 +1,34 @@
+.banner{
+width:1920px;
+height:600px;
+background-image:url(banner.jpg);
+background-size:100% 100%;
+background-repeat:none;
+color:white;
+}
+
+
+.btnn {
+  border: 5px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 10px ;
+}
+
+.one {
+  color: #dc143c;
+}
+
+
+.btnn:hover {
+  color: white;
+  border: 0;
+}
+
+.one:hover {
+  background-color: #dc143c;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+}
